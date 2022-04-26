@@ -1,0 +1,40 @@
+.banner{
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-light .navbar-brand{
+    font-size: 50px;
+    color: #ffebd2;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffebd2;
+    padding-left: 20px;
+}
+
+.ConteudoParagrafo{
+    display: grid;
+    grid-template-areas:
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1fr;
+}
+
+.paragrafo{
+    font-size: 25px;
+    color: #ffebd2;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.circulo{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url("haridade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
